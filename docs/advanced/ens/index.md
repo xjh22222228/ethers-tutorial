@@ -27,12 +27,12 @@ ENS 域名（`Ethereum Name Service`）是以太坊区块链上的一种去中�
 import { ethers } from "ethers";
 
 const provider = new ethers.JsonRpcProvider(
-  "https://ethereum-sepolia-rpc.publicnode.com"
+  "https://ethereum-sepolia-rpc.publicnode.com",
 );
 const balance = await provider.getBalance("vitalik.eth");
 // 等价下面的地址
 const balance2 = await provider.getBalance(
-  "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+  "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
 );
 ```
 
@@ -66,7 +66,7 @@ const balance2 = await provider.getBalance(
 
 ![](./img/3.png)
 
-搜索需要注册的 `ENS` 域名，例如 `xiejiahe`，显示可注册。
+搜索需要注册的 `ENS` 域名，例如 `liuzi6612`，显示可注册。
 
 ![](./img/4.png)
 
@@ -86,7 +86,7 @@ const balance2 = await provider.getBalance(
 
 ![](./img/10.png)
 
-注册成功，你可以在这里查看我的 `ENS` [https://sepolia.app.ens.domains/xiejiahe.eth](https://sepolia.app.ens.domains/xiejiahe.eth)
+注册成功，你可以在这里查看我的 `ENS` [https://sepolia.app.ens.domains/liuzi6612.eth](https://sepolia.app.ens.domains/liuzi6612.eth)
 
 ![](./img/6.png)
 
@@ -104,16 +104,16 @@ const balance2 = await provider.getBalance(
 
 - `https://sepolia.infura.io/v3/你的API_KEY`
 
-下面代码使用刚刚申请的 `xiejiahe.eth` ENS 查询余额。
+下面代码使用刚刚申请的 `liuzi6612.eth` ENS 查询余额。
 
 ```js
 import { ethers } from "ethers";
 
 const provider = new ethers.JsonRpcProvider(
-  "https://ethereum-sepolia-rpc.publicnode.com"
+  "https://ethereum-sepolia-rpc.publicnode.com",
 );
 
-const balance = await provider.getBalance("xiejiahe.eth");
+const balance = await provider.getBalance("liuzi6612.eth");
 
 console.log("balance", balance.toString());
 ```
@@ -135,4 +135,4 @@ const address = await provider.resolveName("vitalik.eth");
 
 `ENS` 域名极大地简化了以太坊地址的使用体验，让用户可以像访问网站一样便捷地管理和转账资产。通过本教程，你学会了什么是 ENS、如何在 `Sepolia` 测试网上注册 `ENS` 域名，以及如何通过 `ethers.js` 查询 `ENS` 域名的余额和地址。`ENS` 不仅提升了区块链的可用性，也为去中心化身份和 `Web3` 应用提供了基础设施。建议大家多多实践，体验 `ENS` 带来的便利。
 
-本章所有示例代码，均可在 [GitHub](https://github.com/xjh22222228/ethers-tutorial/blob/main/docs/advanced/ens/ENS.tsx) 中找到。
+本章所有示例代码，均可在 [GitHub](https://github.com/liuzi6612/ethers-tutorial/blob/main/docs/advanced/ens/ENS.tsx) 中找到。

@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 // @ts-nocheck
@@ -59,7 +59,7 @@ const Component: React.FC = () => {
       });
       window.open(
         "https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?utm_source=ext_app_menu",
-        "_blank"
+        "_blank",
       );
     }
   }

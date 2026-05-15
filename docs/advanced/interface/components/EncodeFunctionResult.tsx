@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -29,7 +29,7 @@ const Component: React.FC = () => {
       const iface = new ethers.Interface(eval(values.abi));
       const data = iface.encodeFunctionResult(
         values.functionName,
-        eval(values.value)
+        eval(values.value),
       );
       notification.success({
         duration: 0,

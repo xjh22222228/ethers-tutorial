@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -26,11 +26,11 @@ const Component: React.FC = () => {
       const provider = new ethers.JsonRpcProvider(values.RPC);
 
       const transactionCount = await provider.getTransactionCount(
-        values.address || address
+        values.address || address,
       );
       const transactionPendingCount = await provider.getTransactionCount(
         values.address || address,
-        "pending"
+        "pending",
       );
 
       notification.success({

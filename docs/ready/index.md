@@ -49,7 +49,7 @@
 ## 运行项目
 
 ```bash
-$ git clone https://github.com/xjh22222228/ethers-tutorial.git
+$ git clone https://github.com/liuzi6612/ethers-tutorial.git
 $ cd ethers-tutorial
 $ pnpm i
 $ npm run start

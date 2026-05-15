@@ -2,11 +2,11 @@
   "name": "ethers-tutorial",
   "version": "0.0.0",
   "private": true,
-  "author": "xiejiahe",
+  "author": "liuzi6612",
   "homepage": "https://ethersjs.cn",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjh22222228/ethers-tutorial.git"
+    "url": "git+https://github.com/liuzi6612/ethers-tutorial.git"
   },
   "scripts": {
     "docusaurus": "docusaurus",
@@ -67,6 +67,6 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xjh22222228/ethers-tutorial/issues"
+    "url": "https://github.com/liuzi6612/ethers-tutorial/issues"
   }
 }

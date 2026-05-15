@@ -17,7 +17,7 @@ const conf: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "xjh22222228", // Usually your GitHub org/user name.
+  organizationName: "liuzi6612", // Usually your GitHub org/user name.
   projectName: "ethers-tutorial", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -34,7 +34,7 @@ const conf: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/xjh22222228/ethers-tutorial",
+          editUrl: "https://github.com/liuzi6612/ethers-tutorial",
         },
         blog: false,
         theme: {
@@ -63,7 +63,7 @@ const conf: Config = {
           label: "快速上手",
         },
         {
-          href: "https://github.com/xjh22222228/ethers-tutorial",
+          href: "https://github.com/liuzi6612/ethers-tutorial",
           label: "GitHub",
           position: "right",
         },
@@ -94,16 +94,16 @@ const conf: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/xjh22222228/ethers-tutorial",
+              href: "https://github.com/liuzi6612/ethers-tutorial",
             },
             {
               label: "Author",
-              href: "https://github.com/xjh22222228",
+              href: "https://github.com/liuzi6612",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} xiejiahe, All Rights Reserved`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${location.hostname}, All Rights Reserved`,
     },
     prism: {
       theme: prismThemes.github,

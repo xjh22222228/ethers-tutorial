@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -49,7 +49,7 @@ const Component: React.FC = () => {
         message: "转账信息",
         description: `代币符号: ${symbol}, 代币小数: ${decimals}, 转账金额: ${ethers.formatUnits(
           amount,
-          decimals
+          decimals,
         )}`,
       });
 
@@ -68,7 +68,7 @@ const Component: React.FC = () => {
 
       window.open(
         `https://explorer.buildbear.io/outstanding-juggernaut-05cd9cc5/tx/${receipt.hash}`,
-        "_blank"
+        "_blank",
       );
 
       handleCancel();

@@ -74,7 +74,7 @@
 ## 运行
 
 ```bash
-$ git clone --depth=1 https://github.com/xjh22222228/ethers-tutorial.git
+$ git clone --depth=1 https://github.com/liuzi6612/ethers-tutorial.git
 $ pnpm i
 $ npm run start
 ```
@@ -87,7 +87,7 @@ $ npm run start
 
 编写不易，如果觉得本教程对您有用，可以请作者喝杯咖啡。
 
-<img src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
+<img src="https://gcore.jsdelivr.net/gh/liuzi6612/public@gh-pages/img/32.png" width="600">
 
 ## LICENSE
 

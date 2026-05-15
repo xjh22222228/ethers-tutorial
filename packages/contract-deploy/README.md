@@ -22,10 +22,10 @@ $ npm run setEnv INFURA_API_KEY
 
 修改 [contracts/Contract.sol](./contracts/Contract.sol)
 
-xiejiahe 是代币名称，xjh 是代币符号， 修改为你的代币名称和符号。
+liuzi6612 是代币名称，xjh 是代币符号， 修改为你的代币名称和符号。
 
 ```sol
-ERC20("xiejiahe", "xjh")
+ERC20("liuzi6612", "xjh")
 ```
 
 ## 编译

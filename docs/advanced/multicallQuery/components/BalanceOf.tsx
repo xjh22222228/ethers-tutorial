@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -50,7 +50,7 @@ const SendTransaction: React.FC = () => {
       const multicallContract = new ethers.Contract(
         multicallAddress,
         multicallAbi,
-        provider
+        provider,
       );
 
       // 要批量读取的目标合约（例如 ERC20）
@@ -88,11 +88,11 @@ const SendTransaction: React.FC = () => {
       for (let i = 0; i < calls.length / 2; i++) {
         const balance = iface.decodeFunctionResult(
           "balanceOf",
-          result.returnData[i]
+          result.returnData[i],
         )[0];
         const symbol = iface.decodeFunctionResult(
           "symbol",
-          result.returnData[j]
+          result.returnData[j],
         )[0];
         console.log(balance, symbol);
         j++;

@@ -8,7 +8,7 @@
     "deploy:local": "hardhat ignition deploy ./ignition/modules/Contract.ts --network localhost",
     "deploy:sepolia": "hardhat ignition deploy ./ignition/modules/Contract.ts --network sepolia"
   },
-  "author": "xiejiahe",
+  "author": "liuzi6612",
   "license": "MIT",
   "description": "",
   "devDependencies": {

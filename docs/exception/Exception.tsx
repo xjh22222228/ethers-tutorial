@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -13,7 +13,7 @@ const Exception: React.FC = () => {
     setLoading(true);
     try {
       const provider = new ethers.JsonRpcProvider(
-        "https://rpc.buildbear.io/outstanding-juggernaut-05cd9cc5"
+        "https://rpc.buildbear.io/outstanding-juggernaut-05cd9cc5",
       );
       const balance = await provider.getBalance("0x");
       console.log(balance);

@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------------------
- *  Copyright (c) xiejiahe xjh22222228/ethers-tutorial. All rights reserved.
+ *  Copyright (c) liuzi6612 liuzi6612/ethers-tutorial. All rights reserved.
  *  Licensed under the MIT License. See License in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import React from "react";
@@ -33,12 +33,12 @@ const Component: React.FC = () => {
       const contract = new ethers.Contract(
         values.contractAddress,
         abi,
-        provider
+        provider,
       );
 
       // 调用 abi 编写的方法
       const balance = await contract.balanceOf(
-        "0x2cFC43B94126595E8B636fed9fB585fF220Bc97d"
+        "0x2cFC43B94126595E8B636fed9fB585fF220Bc97d",
       );
       const symbol = await contract.symbol();
       const decimals = await contract.decimals();

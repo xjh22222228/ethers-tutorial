@@ -385,7 +385,7 @@ console.log(value3); // Uint8Array(3) [ 110, 204, 131 ]
 // 使用 NFC 规范化，这使得他们相等
 console.log(
   toUtf8Bytes("\u00F1", "NFC").toString() ===
-    toUtf8Bytes("\u006E\u0303", "NFC").toString()
+    toUtf8Bytes("\u006E\u0303", "NFC").toString(),
 ); // true
 ```
 
@@ -421,7 +421,7 @@ const value3 = toUtf8String(
     console.log(reason, offset, bytes, output);
     // BAD_PREFIX, 0, Uint8Array(7)[255, 255,72,101,108,108,111], []
     return 1; // 跳过 1 个字节
-  }
+  },
 );
 console.log(value3); // 输出: "Hello"（跳过了无效字节）
 ```
@@ -507,4 +507,4 @@ import ZeroPadValue from "./ZeroPadValue";
 
 本文详细介绍了 ethers.js v6 中常用的工具方法，包括单位转换、地址与数据校验、哈希加密、数据编码解码、随机数生成及格式化等实用函数。这些工具方法极大地简化了以太坊开发中的数据处理、验证和转换流程，让开发者能够更高效、安全地与区块链交互。建议在实际开发中灵活运用这些工具，提升代码的健壮性和可读性。如需深入了解更多细节，可参考官方文档或本教程的 GitHub 示例代码。
 
-本章所有示例代码，均可在 [GitHub](https://github.com/xjh22222228/ethers-tutorial/tree/main/docs/utils) 中找到。
+本章所有示例代码，均可在 [GitHub](https://github.com/liuzi6612/ethers-tutorial/tree/main/docs/utils) 中找到。
