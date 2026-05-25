@@ -9,7 +9,7 @@
 
 你不一定要学习 `Ethers.js`，你也可以了解 `WEB3` 和 `如何与以太坊进行交互`。
 
-[https://ethersjs.cn](https://ethersjs.cn) 在线阅读教程可以直接运行与`以太坊`进行交互，方便你 `零` 代码编写学习。
+[https://ethersv6.netlify.app](https://ethersv6.netlify.app) 在线阅读教程可以直接运行与`以太坊`进行交互，方便你 `零` 代码编写学习。
 
 ## 目录
 
@@ -67,7 +67,7 @@
 
 ## 在线阅读
 
-[https://ethersjs.cn](https://ethersjs.cn)
+[https://ethersv6.netlify.app](https://ethersv6.netlify.app)
 
 [WEB3 相关资源可以从这里找到](https://nav3.cn/#/?id=25)
 
@@ -78,10 +78,6 @@ $ git clone --depth=1 https://github.com/liuzi6612/ethers-tutorial.git
 $ pnpm i
 $ npm run start
 ```
-
-<!-- ## 交流
-
-<img src="./media/qq.jpg" width="300"> -->
 
 ## 支持
 
